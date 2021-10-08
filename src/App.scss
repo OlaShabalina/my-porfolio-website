@@ -1,0 +1,24 @@
+.App {
+    height: 100vh;
+
+// style for all components but header
+    main {
+        width: 100%;
+        height: calc(100vh - 65px);
+        background-color: green;
+        position: relative;
+        top: 65px;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; // remove scrollbar for firefox
+        &::-webkit-scrollbar {
+            display: none;
+        } // for Chrome, Safari, etc.
+
+        // for each component inside main
+        > *{
+            width: 100%;
+            height: calc(100vh - 65px);
+            scroll-snap-align: start;
+        }
+    }
+}
