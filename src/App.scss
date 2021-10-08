@@ -8,6 +8,7 @@
         background-color: green;
         position: relative;
         top: 65px;
+        scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; // remove scrollbar for firefox
         &::-webkit-scrollbar {
