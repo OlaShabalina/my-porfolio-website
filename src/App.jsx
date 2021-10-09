@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header openMenu={openMenu} setOpenMenu={setOpenMenu} />
-      <Menu />
+      <Menu openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <main>
         <Intro />
         <Portfolio />
