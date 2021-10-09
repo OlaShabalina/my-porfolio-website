@@ -1,9 +1,9 @@
 import './Header.scss';
 import {PhoneIphoneOutlined, AlternateEmailOutlined} from '@material-ui/icons'
 
-export default function Header() {
+export default function Header({ openMenu, setOpenMenu }) {
     return (
-        <div className="Header">
+        <div className={"Header " + (openMenu && "active")}>
             <div className="wrapper">
                 <div className="left-side">
                     <a href="#intro" className="logo">{"<OlgaShabalina />"}</a>
@@ -17,7 +17,11 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="right-side">
-                    Test
+                    <div className="hamburger" onClick={() => setOpenMenu(!openMenu)}>
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
                 </div>
             </div>
         </div>

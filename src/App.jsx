@@ -1,15 +1,20 @@
-import Header from './components/header/Header'
-import Intro from './components/intro/Intro'
-import Portfolio from './components/portfolio/Portfolio'
-import Work from './components/work/Work'
-import Testimonials from './components/testimonials/Testimonials'
-import Contact from './components/contact/Contact'
-import './App.scss'
+import Header from './components/header/Header';
+import Intro from './components/intro/Intro';
+import Portfolio from './components/portfolio/Portfolio';
+import Work from './components/work/Work';
+import Testimonials from './components/testimonials/Testimonials';
+import Contact from './components/contact/Contact';
+import Menu from './components/menu/Menu';
+import './App.scss';
+import { useState } from 'react';
 
 function App() {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <div className="App">
-      <Header />
+      <Header openMenu={openMenu} setOpenMenu={setOpenMenu} />
+      <Menu />
       <main>
         <Intro />
         <Portfolio />
