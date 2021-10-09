@@ -1,15 +1,48 @@
 import './Portfolio.scss'
+import PortfolioNav from '../portfolioNav/PortfolioNav'
+import { useState } from 'react'
 
 export default function Portfolio() {
+
+    // creating effect for when the button is clicked
+    const [selected, setSelected] = useState("featured");
+    
+    // portfolio nav bar titles
+    const list = [
+        {
+            id: "featured",
+            title: "Featured"
+        },
+        {
+            id: "react",
+            title: "React"
+        },
+        {
+            id: "express",
+            title: "Express"
+        },
+        {
+            id: "html",
+            title: "HTML/CSS"
+        },
+        {
+            id: "js",
+            title: "JavaScript"
+        },
+    ]
+
     return (
         <div className="Portfolio" id="portfolio">
             <h1>Porfolio</h1>
             <ul>
-                <li className="active">Featured</li>
-                <li>React</li>
-                <li>Express</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
+                {list.map(li => (
+                    <PortfolioNav 
+                        title={li.title} 
+                        active={selected === li.id} 
+                        setSelected={setSelected} 
+                        id={li.id}
+                    />
+                ))}
             </ul>
             <div className="container">
                 <div className="project">
