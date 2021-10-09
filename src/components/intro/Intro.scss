@@ -54,6 +54,24 @@
                     font-size: inherit;
                     color: $introColor;
                 }
+
+                // animation for ityped dynamic span text
+                .ityped-cursor {
+                    animation: 1s blink infinite;
+                }
+
+                // I'll be using the blink animation often, will move it to global var later
+                @keyframes blink {
+                    from {
+                        opacity: 1;
+                    }
+                    50% {
+                        opacity: 0;
+                    }
+                    to {
+                        opacity: 1;
+                    }
+                }
             }
         }
 
