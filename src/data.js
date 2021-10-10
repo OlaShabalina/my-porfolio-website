@@ -1,3 +1,76 @@
+// list of programming languges I know as per Devicon v2.14.0
+export const  listOfSkills = [
+    {
+        id: 1,
+        name: "html5",
+        original: false
+    },
+    {
+        id: 2,
+        name: "css3",
+        original: false
+    },
+    {
+        id: 3,
+        name: "javascript",
+        original: false
+    },
+    {
+        id: 4,
+        name: "react",
+        original: true
+    },
+    {
+        id: 5,
+        name: "nodejs",
+        original: false
+    },
+    {
+        id: 6,
+        name: "express",
+        original: true
+    },
+    {
+        id: 7,
+        name: "postgresql",
+        original: false
+    },
+    {
+        id: 8,
+        name: "sass",
+        original: true
+    },
+    {
+        id: 9,
+        name: "vscode",
+        original: false
+    },
+    {
+        id: 10,
+        name: "figma",
+        original: false
+    },
+    {
+        id: 11,
+        name: "jira",
+        original: false
+    },
+    {
+        id: 12,
+        name: "bootstrap",
+        original: false
+    },
+    {
+        id: 12,
+        name: "slack",
+        original: false
+    }
+
+]
+
+
+// projects for my portfolio
+
 export const portfolioList = [
     {
         id: 1,
