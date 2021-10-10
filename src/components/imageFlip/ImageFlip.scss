@@ -1,0 +1,13 @@
+.ImageFlip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 100vh;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

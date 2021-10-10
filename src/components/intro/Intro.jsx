@@ -2,6 +2,7 @@ import './Intro.scss'
 import {KeyboardArrowDownOutlined} from '@material-ui/icons'
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
+import ImageFlip from '../imageFlip/ImageFlip'
 
 export default function Intro() {
 
@@ -20,7 +21,11 @@ export default function Intro() {
         <div className="Intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/olgaShabalina.png" alt="Cartoon-like portrait of myself" />
+                    <ImageFlip 
+                        img="assets/olgaShabalina.png" 
+                        flippedImg="assets/olgaShabalinaFlipped.png"
+                        alt="Cartoon-like portrait of myself" 
+                    />
                 </div>
             </div>
             <div className="right">
