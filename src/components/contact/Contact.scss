@@ -1,3 +1,83 @@
+@import '../../global.scss';
+
 .Contact {
-    background-color: lightblue;
+    background-color: $introColor;
+    display: flex;
+
+    .left {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+        .container {
+            background-color: $lightColor;
+            margin-top: -40px;
+            height: 50%;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+
+        }
+    }
+
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 30px;
+            color: $lightColor;
+        }
+
+        form {
+            height: 50%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            input {
+                width: 290px;
+                height: 30px;
+                font-size: 14px;
+                border-radius: 7px;
+                border: none;
+
+                &:focus {
+                    outline: none;
+                }
+
+            }
+
+            textarea {
+                width: 290px;
+                height: 200px;
+                font-size: 14px;
+                border-radius: 7px;
+                border: none;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            button {
+                width: 150px;
+                height: 30px;
+                color: whitesmoke;
+                background-color: $mainColor;
+                border: none;
+                border-radius: 8px;
+                font-weight: 500;
+                cursor: pointer;
+
+            }
+        }
+    }
 }
