@@ -1,0 +1,37 @@
+@import '../../global.scss';
+
+.Footer {
+    background-color: $lightColor;
+    border-top: 1px solid $lightColor;
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    .socials {
+        height: inherit;
+        display: flex;
+        align-items: center;
+
+        a {
+            height: inherit;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+    
+            i {
+                font-size: 30px;
+                color: $mainColor;
+            }
+        }
+    }
+
+    p {
+        color: $mainColor;
+    }
+
+}
