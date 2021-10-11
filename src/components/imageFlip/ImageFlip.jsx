@@ -15,16 +15,16 @@ export default function ImageFlip({ img, flippedImg}) {
             isFlipped={isFlipped} 
             flipDirection="horizontal" 
             containerClassName="ImageFlip"
-            flipSpeedFrontToBack={1}
-            flipSpeedBackToFront={0.5}
+            flipSpeedFrontToBack={2}
+            flipSpeedBackToFront={2}
         >
             <img 
-                onClick={handleClick} 
+                onMouseOver={handleClick} 
                 src={isFlipped ? img : flippedImg}
                 alt="Front of the developer"
             />
             <img 
-                onClick={handleClick} 
+                onMouseOver={handleClick} 
                 src={isFlipped ? img : flippedImg} 
                 alt="Back of the developer"
             />

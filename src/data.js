@@ -104,8 +104,8 @@ export const portfolioList = [
         link: 'https://github.com/OlaShabalina/MR_Coffee_HTML_CSS_JS',
         express: true,
         html: false,
-        featured: false,
-        react: false,
+        featured: true,
+        react: true,
         js: true
     },
     {
@@ -114,9 +114,9 @@ export const portfolioList = [
         summery: 'Something about this project',
         img: 'https://user-images.githubusercontent.com/88268603/136169419-5264b69d-bc0e-4b8d-b5e1-98e0cf5f865c.PNG',
         link: 'https://github.com/OlaShabalina/Mr_Coffee_schedule_app_with_login',
-        express: true,
+        express: false,
         html: false,
-        featured: true,
+        featured: false,
         react: true,
         js: false
     },
@@ -126,9 +126,9 @@ export const portfolioList = [
         img: 'https://user-images.githubusercontent.com/88268603/136169419-5264b69d-bc0e-4b8d-b5e1-98e0cf5f865c.PNG',
         summery: 'Something about this project',
         link: 'https://github.com/OlaShabalina/Mr_Coffee_schedule_app_with_login',
-        express: true,
+        express: false,
         html: false,
-        featured: true,
+        featured: false,
         react: false,
         js: false
     },
@@ -138,9 +138,9 @@ export const portfolioList = [
         img: 'https://user-images.githubusercontent.com/88268603/136169419-5264b69d-bc0e-4b8d-b5e1-98e0cf5f865c.PNG',
         link: 'https://github.com/OlaShabalina/Mr_Coffee_schedule_app_with_login',
         summery: 'Something about this project',
-        express: true,
+        express: false,
         html: false,
-        featured: true,
+        featured: false,
         react: false,
         js: false
     }
