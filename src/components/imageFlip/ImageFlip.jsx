@@ -21,10 +21,12 @@ export default function ImageFlip({ img, flippedImg}) {
             <img 
                 onClick={handleClick} 
                 src={isFlipped ? img : flippedImg}
+                alt="Front of the developer"
             />
             <img 
                 onClick={handleClick} 
-                src={isFlipped ? img : flippedImg}
+                src={isFlipped ? img : flippedImg} 
+                alt="Back of the developer"
             />
         </ReactCardFlip>
     )

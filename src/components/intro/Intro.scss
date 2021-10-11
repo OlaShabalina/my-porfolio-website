@@ -3,22 +3,29 @@
 .Intro {
     background-color: $lightColor;
     display: flex;
+    max-height: 100vh;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .left {
         flex: 0.5;
         overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        @include mobile {
+            align-items: center;
+            justify-content: center;
+            
+        }
 
         .imgContainer {
-            margin-top: 10%;
-            width: 100vh;
-            height: 100vh;
             overflow: hidden;
-            background-color: $introColor;
-            border-radius: 50%;
             display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: right;
 
         }
     }
@@ -26,18 +33,31 @@
     .right {
         flex: 0.5;
         position: relative;
+        padding: 0 50px;
+
+        @include mobile {
+             
+        }
 
         .wrapper {
             width: 100%;
             height: 100%;
-            padding-left: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
+            @include mobile {
+                align-items: center;
+                justify-content: flex-start;
+            }
+
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
+                
+                @include mobile {
+                    font-size: 40px;
+                }
             }
 
             h2 {
@@ -47,14 +67,34 @@
             h3 {
                 font-size: 30px;
 
+                @include mobile {
+                    font-size: 20px;
+                    position: relative;
+                }
+
                 span {
                     font-size: inherit;
                     color: $mainColor;
+
+                    @include mobile {
+                        display: flex;
+                        justify-content: center;
+
+                        // make span a block element so it goes on the next line
+                        &:before{
+                            content: '\a' ; 
+                            white-space: pre;  
+                        }
+                    }
                 }
 
                 // animation for ityped dynamic span text
                 .ityped-cursor {
                     animation: 1s blink infinite;
+
+                    @include mobile {
+                        display: none;
+                    }
                 }
 
                 // I'll be using the blink animation often, will move it to global var later
@@ -76,6 +116,10 @@
             position: absolute;
             bottom: 5px;
             left: 30%;
+
+            @include mobile {
+                left: 37%
+            }
 
             .icon {
                 font-size: 7em;

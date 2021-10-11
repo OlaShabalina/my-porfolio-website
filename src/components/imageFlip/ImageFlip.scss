@@ -1,13 +1,28 @@
+@import '../../global.scss';
+
 .ImageFlip {
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    .react-card-front, .react-card-back {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        @include mobile {
+            justify-content: center;
+            
+        }
+    }
 
     img {
-        height: 100vh;
+        max-width: 70%;
+        max-height: auto;
+        display: block;
     }
 
     &:hover {
         cursor: pointer;
     }
+
 }
