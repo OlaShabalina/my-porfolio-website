@@ -13,6 +13,10 @@
         font-size: 45px;
         text-align: center;
 
+        @include mobile {
+            font-size: 37px;
+        }
+
         span:nth-of-type(2) {
             color: $mainColor;
             text-decoration: underline;
@@ -28,6 +32,10 @@
         i {
             font-size: 70px;
             padding: 0 5% 5% 5%;
+
+            @include mobile {
+                font-size: 50px;
+            }
 
             &:hover {
                 cursor: help;
