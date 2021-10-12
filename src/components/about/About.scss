@@ -5,4 +5,46 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        h1 {
+            color: $mainColor;
+
+            @include mobile {
+                font-size: 25px;
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 15px 0;
+            width: 80%;
+
+            li {
+                text-align: left;
+                width: 100%;
+                padding: 0;
+                font-size: 15px;
+
+                @include mobile {
+                    font-size: 14px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $mainColor;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
 }
