@@ -120,14 +120,19 @@
                     width: 150px;
                     height: 40px;
                     min-height: 40px;
-                    color: whitesmoke;
+                    color: $lightColor;
                     background-color: $mainColor;
                     border: none;
                     border-radius: 8px;
                     font-weight: 500;
                     font-size: 20px;
                     cursor: pointer;
-    
+                    transition: 1s ease;
+                    
+                    &:hover {
+                        background-color: $lightColor;
+                        color: $mainColor;
+                    }
                 }
     
                 span {

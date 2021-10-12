@@ -16,7 +16,7 @@ export default function Skills() {
             <div className="container">
                 {listOfSkills.map(icon => (
                     <i 
-                        class={isIconOriginal(icon)}
+                        className={isIconOriginal(icon)}
                         key={icon.id}
                         title={icon.name}
                     >

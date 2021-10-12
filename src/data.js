@@ -61,7 +61,7 @@ export const  listOfSkills = [
         original: false
     },
     {
-        id: 12,
+        id: 13,
         name: "slack",
         original: false
     }

@@ -69,6 +69,12 @@ export default function Portfolio() {
                 });
                 setData(shownData);
                 break;
+            default:
+                shownData = portfolioList.filter(project => {
+                    return project.featured;
+                });
+                setData(shownData);
+                break;
         }
 
     }, [selected])
