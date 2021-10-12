@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="About" id="about">
             <div className="wrapper">
-                <small>If You reached here, You may as well get to know me a bit more! ;-) </small>
+                <small>If you reached here, you may as well get to know me a bit more! ;-) </small>
                 <h1> A few words about myself: </h1>
                 <ul>
                     <li><strong>Bootcamp & Udemy</strong> graduate who thinks she can now build whatever she wants (with enough research, of course).</li>

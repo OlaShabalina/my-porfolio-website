@@ -24,9 +24,21 @@
         }
 
         .imgContainer {
-            overflow: hidden;
             display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
 
+            @include mobile {
+                justify-content: center;
+                
+            }
+
+            img {
+                max-width: 70%;
+                max-height: auto;
+                display: block;
+            }
+        
         }
     }
 

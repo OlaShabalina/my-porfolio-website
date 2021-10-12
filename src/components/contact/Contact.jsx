@@ -18,7 +18,7 @@ export default function Contact() {
                 <div className="left">
                     <div className="container">
                         <img 
-                            src="https://th.bing.com/th/id/OIP.73vyI0NEb-HVf9yjK13ulwHaEB?pid=ImgDet&rs=1"
+                            src="assets/olgaAndDog.png"
                             alt="contact me octopus"
                         />
                     </div>

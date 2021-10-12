@@ -64,6 +64,11 @@ export const  listOfSkills = [
         id: 13,
         name: "slack",
         original: false
+    },
+    {
+        id: 14,
+        name: "jquery",
+        original: false
     }
 
 ]
@@ -74,9 +79,9 @@ export const  listOfSkills = [
 export const portfolioList = [
     {
         id: 1,
-        title: "ExpressApp",
+        title: "Roster App",
         img: 'https://user-images.githubusercontent.com/88268603/136169419-5264b69d-bc0e-4b8d-b5e1-98e0cf5f865c.PNG',
-        summery: 'TESTTTT Something about this project',
+        summery: 'Coffeeshop roster app with login authentification, database connection (PostgreSQL), backend validation and frontend filtering.',
         link: 'https://github.com/OlaShabalina/Mr_Coffee_schedule_app_with_login',
         express: true,
         html: false,
@@ -86,26 +91,26 @@ export const portfolioList = [
     },
     {
         id: 2,
-        title: "Mr Coffee website",
-        img: 'https://user-images.githubusercontent.com/88268603/136165738-a94b8cca-a1dc-45f5-a669-6994b0adbca8.png',
+        title: "Movie rating app",
+        img: 'https://user-images.githubusercontent.com/59786494/135805095-a99db5d7-1c3b-46a1-8c83-22aeef6f4772.png',
         summery: 'Something about this project',
         link: 'https://github.com/OlaShabalina/MovieProject',
-        express: false,
-        html: true,
+        express: true,
+        html: false,
         featured: true,
         react: false,
         js: true
     },
     {
         id: 3,
-        title: "Movie Project",
-        summery: 'Something about this project',
-        img: 'https://user-images.githubusercontent.com/59786494/135805095-a99db5d7-1c3b-46a1-8c83-22aeef6f4772.png',
-        link: 'https://github.com/OlaShabalina/MR_Coffee_HTML_CSS_JS',
-        express: true,
-        html: false,
+        title: "Mr Coffee website",
+        summery: 'HTML/CSS/JS website for a cafe. Used CSS flex-box for responsiveness. Review form has a JS validation and pop-up being generated on successful submission.',
+        img: 'https://user-images.githubusercontent.com/88268603/136165738-a94b8cca-a1dc-45f5-a669-6994b0adbca8.png',
+        link: 'https://olashabalina.github.io/MR_Coffee_HTML_CSS_JS/',
+        express: false,
+        html: true,
         featured: true,
-        react: true,
+        react: false,
         js: true
     },
     {

@@ -81,7 +81,7 @@ export default function Portfolio() {
 
     return (
         <div className="Portfolio" id="portfolio">
-            <h1>Porfolio</h1>
+            <h1>Portfolio</h1>
             <ul>
                 {list.map(li => (
                     <PortfolioNav 
