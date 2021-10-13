@@ -106,7 +106,7 @@ export default function Portfolio() {
                     </div>
                 ))}                
             </div>
-            <p>Hey, I'm yet to deploy my projects but here are the links to my GitHub profile to see the code</p>
+            <p>I'm yet to deploy my back-end projects (provided links to GitHub for the time being)</p>
         </div>
     )
 }
