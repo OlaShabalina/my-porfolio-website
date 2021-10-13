@@ -35,14 +35,13 @@
         justify-content: space-evenly;
         padding-top: 0;
         flex-wrap: wrap;
-        padding: 2% 0;
+        overflow: hidden;
         row-gap: 1%;
         column-gap: 1%;
 
         @include mobile {
             width: 90%;
             margin: 0;
-            overflow: hidden;
         }
 
         .project {
