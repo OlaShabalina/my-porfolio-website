@@ -68,7 +68,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-around;
-                overflow:visible;
+                position: relative;
 
                 @include mobile {
                     row-gap: 7px;
@@ -92,6 +92,10 @@
                     &[type=text] {
                         color: $mainColor;
                         padding-left: 3px;
+                    }
+
+                    @include mobile {
+                        height: 50px;
                     }
     
                 }
@@ -137,13 +141,22 @@
                     }
                 }
     
-                span {
-                    color: $lightColor;
-                    font-size: 20px;
+            }
 
-                    @include mobile {
-                        overflow:visible;
-                    }
+            span {
+                color: $lightColor;
+                font-size: 20px;
+
+                @include mobile {
+                    position: absolute;
+                    color: $lightColor;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    bottom: 50%;
+                    background-color: $mainColor;
+                    opacity: 90%;
+                    width: 100%;
                 }
             }
         }

@@ -48,11 +48,11 @@ export default function Contact() {
                         <input type="text" placeholder="Email" name="email" />
                         <textarea placeholder="Message" name="message"></textarea>
                         <button type="submit">Send</button>
-                        {message &&
-                        <span>
-                            Thank you for your message, I'll be in touch shortly.
-                        </span>}
                     </form>
+                    {message &&
+                    <span>
+                        Thank you for your message, I'll be in touch shortly.
+                    </span>}
                 </div>
             </div>
             <Footer />
