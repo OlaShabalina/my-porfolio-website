@@ -36,7 +36,7 @@ export default function Contact() {
                 <div className="left">
                     <div className="container">
                         <img
-                            src="olashabalina.github.io/assets/olgaAndDog.png"
+                            src="https://olgashabalina.com/assets/olgaAndDog.png"
                             alt="contact me octopus"
                         />
                     </div>

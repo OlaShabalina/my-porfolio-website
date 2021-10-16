@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://olashabalina.github.io/my-porfolio-website",
+  "homepage": "https://olgashabalina.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "ityped": "^1.0.3",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
