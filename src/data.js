@@ -87,14 +87,14 @@ export const portfolioList = [
         html: false,
         featured: true,
         react: false,
-        js: true
+        js: false
     },
     {
         id: 2,
         title: "Movie rating app",
-        img: 'https://user-images.githubusercontent.com/59786494/135805095-a99db5d7-1c3b-46a1-8c83-22aeef6f4772.png',
-        summery: 'Something about this project',
-        link: 'https://github.com/OlaShabalina/MovieProject',
+        img: 'https://user-images.githubusercontent.com/88268603/137474443-11c98e5e-91d3-419c-90bd-25534a02c692.png',
+        summery: 'Movie rating app using Express, EJS, PostgreSQL, jQuery, AJAX API requests, Bootstrap and CSS.',
+        link: 'https://github.com/OlaShabalina/Movie_rating_app',
         express: true,
         html: false,
         featured: true,
@@ -147,6 +147,30 @@ export const portfolioList = [
         html: false,
         featured: false,
         react: false,
+        js: false
+    },
+    {
+        id: 7,
+        title: "My Portfolio website",
+        img: 'https://user-images.githubusercontent.com/88268603/137575535-2c001458-74b8-4ec2-a59d-7dbcaf15113a.png',
+        link: '/',
+        summery: 'Portfolio website is done in React abd Sass to showcase my knowledge',
+        express: false,
+        html: false,
+        featured: false,
+        react: true,
+        js: false
+    },
+    {
+        id: 8,
+        title: "E-commerce website",
+        img: 'https://media.istockphoto.com/vectors/coming-soon-lettering-coming-soon-for-promotion-advertisement-sale-vector-id1221240925?k=20&m=1221240925&s=612x612&w=0&h=HX77CIwJ34u7qUMpI_W5z4dDnEbHGv66mGXVTpIccv8=',
+        link: 'https://github.com/OlaShabalina/React_ecommerce_website',
+        summery: 'E-commerce website is done in React abd Sass',
+        express: false,
+        html: false,
+        featured: false,
+        react: true,
         js: false
     }
 

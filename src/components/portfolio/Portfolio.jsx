@@ -7,6 +7,8 @@ export default function Portfolio() {
 
     // creating effect for when the button is clicked
     const [selected, setSelected] = useState("featured");
+
+    // working with data from portfolioList file
     const [data, setData] = useState([]);
     
     // portfolio nav bar titles
@@ -16,14 +18,6 @@ export default function Portfolio() {
             title: "Featured"
         },
         {
-            id: "react",
-            title: "React"
-        },
-        {
-            id: "express",
-            title: "Express"
-        },
-        {
             id: "html",
             title: "HTML/CSS"
         },
@@ -31,6 +25,15 @@ export default function Portfolio() {
             id: "js",
             title: "JavaScript"
         },
+        {
+            id: "express",
+            title: "Express"
+        },
+        {
+            id: "react",
+            title: "React"
+        }
+
     ]
 
     // Setting up a filter depending on which nav link is clicked
@@ -106,7 +109,7 @@ export default function Portfolio() {
                     </div>
                 ))}                
             </div>
-            <p>I'm yet to deploy my back-end projects (provided links to GitHub for the time being)</p>
+            <p>I'm yet to deploy some of my projects (But I have a detailed summary on GitHub)</p>
         </div>
     )
 }
