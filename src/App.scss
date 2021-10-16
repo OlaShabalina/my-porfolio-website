@@ -10,6 +10,12 @@
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; // remove scrollbar for firefox
+
+        @media screen and (max-width: 700px) {
+            scroll-behavior: unset;
+            scroll-snap-type: none;
+        }
+
         &::-webkit-scrollbar {
             display: none;
         } // for Chrome, Safari, etc.
@@ -20,5 +26,6 @@
             height: calc(100vh - 65px);
             scroll-snap-align: start;
         }
+
     }
 }
