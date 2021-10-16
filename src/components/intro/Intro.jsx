@@ -21,7 +21,7 @@ export default function Intro() {
             <div className="left">
                 <div className="imgContainer">
                     <img 
-                        src="assets/olgaShabalina.png" 
+                        src="olashabalina.github.io/assets/olgaShabalina.png" 
                         alt="Cartoon-like portrait of myself" 
                     />
                 </div>
