@@ -68,9 +68,9 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-around;
-                position: relative;
-
+                
                 @include mobile {
+                    position: relative;
                     row-gap: 7px;
                 }
     
@@ -107,6 +107,7 @@
                     border-radius: 7px;
                     border: none;
                     resize: none;
+                    color: $mainColor;
     
                     &::placeholder {
                         padding-left: 3px;

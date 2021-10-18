@@ -99,7 +99,7 @@ export default function Portfolio() {
             <div className="container">
                 {data.map(project => (
                     <div className="project" key={project.id} >
-                        <a href={project.link}>
+                        <a href={project.link} target="_blank" rel="noreferrer">
                             <img 
                                 src={project.img}
                                 alt={project.summery}
@@ -109,7 +109,7 @@ export default function Portfolio() {
                     </div>
                 ))}                
             </div>
-            <p>I'm yet to deploy some of my projects (But I have a detailed summary on GitHub)</p>
+            <p>Please feel free to reach out if you have any questions about any of the projects above.</p>
         </div>
     )
 }
