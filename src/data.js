@@ -79,9 +79,9 @@ export const  listOfSkills = [
 export const portfolioList = [
     {
         id: 1,
-        title: "Roster App",
+        title: "Roster app",
         img: 'https://user-images.githubusercontent.com/88268603/136169419-5264b69d-bc0e-4b8d-b5e1-98e0cf5f865c.PNG',
-        summery: 'Coffeeshop roster app with login authentification, database connection (PostgreSQL), backend validation and frontend filtering.',
+        summary: 'Coffeeshop roster app with login authentification, database connection (PostgreSQL), backend validation and frontend filtering.',
         link: 'https://scheduling-software.herokuapp.com',
         express: true,
         html: false,
@@ -93,7 +93,7 @@ export const portfolioList = [
         id: 2,
         title: "Movie rating app",
         img: 'https://user-images.githubusercontent.com/88268603/137474443-11c98e5e-91d3-419c-90bd-25534a02c692.png',
-        summery: 'Movie rating app using Express, EJS, PostgreSQL, jQuery, AJAX API requests, Bootstrap and CSS.',
+        summary: 'Movie rating app using Express, EJS, PostgreSQL, jQuery, AJAX API requests, Bootstrap and CSS.',
         link: 'https://your-movie-rating.herokuapp.com',
         express: true,
         html: false,
@@ -104,7 +104,7 @@ export const portfolioList = [
     {
         id: 3,
         title: "Mr Coffee website",
-        summery: 'HTML/CSS/JS website for a cafe. Used CSS flex-box for responsiveness. Review form has a JS validation and pop-up being generated on successful submission.',
+        summary: 'HTML/CSS/JS website for a cafe. Used CSS flex-box for responsiveness. Review form has a JS validation and pop-up being generated on successful submission.',
         img: 'https://user-images.githubusercontent.com/88268603/136165738-a94b8cca-a1dc-45f5-a669-6994b0adbca8.png',
         link: 'https://olashabalina.github.io/MR_Coffee_HTML_CSS_JS/',
         express: false,
@@ -116,7 +116,7 @@ export const portfolioList = [
     {
         id: 4,
         title: "Notes app",
-        summery: 'Notes app to keep track of important notes. Tracking time of the notes and last edits. Filtering and sorting notes. Styles: Materialize front-end framework and css.',
+        summary: 'Notes app to keep track of important notes. Tracking time of the notes and last edits. Filtering and sorting notes. Styles: Materialize front-end framework and css.',
         img: 'https://user-images.githubusercontent.com/88268603/136172369-5c87c6db-7139-4f61-a358-386a9076756c.png',
         link: 'https://olashabalina.github.io/Notes_app/',
         express: false,
@@ -127,9 +127,9 @@ export const portfolioList = [
     },
     {
         id: 5,
-        title: "Task Manager",
+        title: "Task manager",
         img: 'https://user-images.githubusercontent.com/88268603/136360553-f43c77bc-58a0-44e4-bc3b-dec9a39d324c.png',
-        summery: 'Making a task manager for adding and filtering tasks for the day (todo app). Styles: Materialize front-end framework and css.',
+        summary: 'Making a task manager for adding and filtering tasks for the day (todo app). Styles: Materialize front-end framework and css.',
         link: 'https://olashabalina.github.io/Todo_app/',
         express: false,
         html: false,
@@ -142,7 +142,7 @@ export const portfolioList = [
         title: "ExpressApp",
         img: 'https://user-images.githubusercontent.com/88268603/136169419-5264b69d-bc0e-4b8d-b5e1-98e0cf5f865c.PNG',
         link: 'https://github.com/OlaShabalina/Mr_Coffee_schedule_app_with_login',
-        summery: 'Something about this project',
+        summary: 'Something about this project',
         express: false,
         html: false,
         featured: false,
@@ -154,7 +154,7 @@ export const portfolioList = [
         title: "My Portfolio website",
         img: 'https://user-images.githubusercontent.com/88268603/137575535-2c001458-74b8-4ec2-a59d-7dbcaf15113a.png',
         link: '/',
-        summery: 'Portfolio website is done in React abd Sass to showcase my knowledge',
+        summary: 'Portfolio website is done in React abd Sass to showcase my knowledge',
         express: false,
         html: false,
         featured: false,
@@ -166,11 +166,23 @@ export const portfolioList = [
         title: "E-commerce website",
         img: 'https://media.istockphoto.com/vectors/coming-soon-lettering-coming-soon-for-promotion-advertisement-sale-vector-id1221240925?k=20&m=1221240925&s=612x612&w=0&h=HX77CIwJ34u7qUMpI_W5z4dDnEbHGv66mGXVTpIccv8=',
         link: 'https://github.com/OlaShabalina/React_ecommerce_website',
-        summery: 'E-commerce website is done in React abd Sass',
+        summary: 'E-commerce website is done in React abd Sass',
         express: false,
         html: false,
         featured: false,
         react: true,
+        js: false
+    },
+    {
+        id: 9,
+        title: "Key management app",
+        img: 'https://user-images.githubusercontent.com/88268603/139249802-bf6503ec-3cb1-4a9d-b2fb-9f24f1bcb67c.PNG',
+        link: 'https://micm-sales-keys.herokuapp.com',
+        summary: 'App for keeping track of keys for real estate day-to-day operations. Found a solution for my professional problem.',
+        express: true,
+        html: false,
+        featured: false,
+        react: false,
         js: false
     }
 

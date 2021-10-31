@@ -18,6 +18,13 @@ export default function Footer() {
                 >
                     <i className="devicon-linkedin-plain"></i>
                 </a>
+                <a 
+                href="https://twitter.com/mynewcodinglife" 
+                target="_blank"
+                rel="noreferrer"
+                >
+                    <i className="devicon-twitter-plain"></i>
+                </a>
             </div>
             <p>© 2021 Portfolio of Olga Shabalina</p>
         </div>
