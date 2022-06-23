@@ -84,10 +84,9 @@ export const portfolioList = [
         summary: 'Coffeeshop roster app with login authentification, database connection (PostgreSQL), backend validation and frontend filtering.',
         link: 'https://scheduling-software.herokuapp.com',
         express: true,
-        html: false,
+        basics: false,
         featured: true,
-        react: false,
-        js: false
+        react: false
     },
     {
         id: 2,
@@ -96,10 +95,9 @@ export const portfolioList = [
         summary: 'Movie rating app using Express, EJS, PostgreSQL, jQuery, AJAX API requests, Bootstrap and CSS.',
         link: 'https://your-movie-rating.herokuapp.com',
         express: true,
-        html: false,
+        basics: false,
         featured: true,
-        react: false,
-        js: false
+        react: false
     },
     {
         id: 3,
@@ -108,10 +106,9 @@ export const portfolioList = [
         img: 'https://user-images.githubusercontent.com/88268603/136165738-a94b8cca-a1dc-45f5-a669-6994b0adbca8.png',
         link: 'https://olashabalina.github.io/MR_Coffee_HTML_CSS_JS/',
         express: false,
-        html: true,
+        basics: true,
         featured: true,
-        react: false,
-        js: false
+        react: false
     },
     {
         id: 4,
@@ -120,10 +117,9 @@ export const portfolioList = [
         img: 'https://user-images.githubusercontent.com/88268603/136172369-5c87c6db-7139-4f61-a358-386a9076756c.png',
         link: 'https://olashabalina.github.io/Notes_app/',
         express: false,
-        html: false,
+        basics: true,
         featured: false,
-        react: false,
-        js: true
+        react: false
     },
     {
         id: 5,
@@ -132,10 +128,9 @@ export const portfolioList = [
         summary: 'Making a task manager for adding and filtering tasks for the day (todo app). Styles: Materialize front-end framework and css.',
         link: 'https://olashabalina.github.io/Todo_app/',
         express: false,
-        html: false,
+        basics: true,
         featured: false,
-        react: false,
-        js: true
+        react: false
     },
     {
         id: 6,
@@ -144,47 +139,42 @@ export const portfolioList = [
         link: 'https://github.com/OlaShabalina/Mr_Coffee_schedule_app_with_login',
         summary: 'Something about this project',
         express: false,
-        html: false,
+        basics: false,
         featured: false,
-        react: false,
-        js: false
+        react: false
     },
     {
         id: 7,
-        title: "My Portfolio website",
-        img: 'https://user-images.githubusercontent.com/88268603/137575535-2c001458-74b8-4ec2-a59d-7dbcaf15113a.png',
-        link: '/',
-        summary: 'Portfolio website is done in React abd Sass to showcase my knowledge',
-        express: false,
-        html: false,
-        featured: false,
-        react: true,
-        js: false
-    },
-    {
-        id: 8,
         title: "E-commerce website",
         img: 'https://media.istockphoto.com/vectors/coming-soon-lettering-coming-soon-for-promotion-advertisement-sale-vector-id1221240925?k=20&m=1221240925&s=612x612&w=0&h=HX77CIwJ34u7qUMpI_W5z4dDnEbHGv66mGXVTpIccv8=',
         link: 'https://github.com/OlaShabalina/React_ecommerce_website',
         summary: 'E-commerce website is done in React abd Sass',
         express: false,
-        html: false,
+        basics: false,
         featured: false,
-        react: true,
-        js: false
+        react: true
     },
     {
-        id: 9,
+        id: 8,
         title: "Key management app",
         img: 'https://user-images.githubusercontent.com/88268603/139249802-bf6503ec-3cb1-4a9d-b2fb-9f24f1bcb67c.PNG',
         link: 'https://micm-sales-keys.herokuapp.com',
         summary: 'App for keeping track of keys for real estate day-to-day operations. Found a solution for my professional problem.',
         express: true,
-        html: false,
+        basics: false,
         featured: false,
-        react: false,
+        react: false
+    },
+    {
+        id: 9,
+        title: "Emission Survey",
+        img: 'https://user-images.githubusercontent.com/88268603/175296782-f5efce44-2396-40be-9e4e-9031d2ff53ca.png',
+        link: 'https://council-emissions-calculator-spike-flax.vercel.app',
+        summary: 'Project completed as a member of Code for Australia',
+        express: false,
+        basics: false,
+        featured: false,
+        react: true,
         js: false
     }
-
-
 ]
