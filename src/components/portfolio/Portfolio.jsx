@@ -18,12 +18,8 @@ export default function Portfolio() {
             title: "Featured"
         },
         {
-            id: "html",
-            title: "HTML/CSS"
-        },
-        {
-            id: "js",
-            title: "JavaScript"
+            id: "basics",
+            title: "HTML/CSS/JS"
         },
         {
             id: "express",
@@ -60,15 +56,9 @@ export default function Portfolio() {
                 });
                 setData(shownData);
                 break;
-            case "html":
+            case "basics":
                 shownData = portfolioList.filter(project => {
-                    return project.html;
-                });
-                setData(shownData);
-                break;
-            case "js":
-                shownData = portfolioList.filter(project => {
-                    return project.js;
+                    return project.basics;
                 });
                 setData(shownData);
                 break;
@@ -109,7 +99,6 @@ export default function Portfolio() {
                     </div>
                 ))}                
             </div>
-            <p>Please feel free to reach out if you have any questions about any of the projects above.</p>
         </div>
     )
 }
