@@ -62,8 +62,8 @@
             }
     
             form {
-                height: 55%;
-                width: 100%;
+                height: 50%;
+                width: 80%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -75,20 +75,23 @@
                 }
     
                 input {
-                    min-width: 290px;
-                    width: 80%;
+                    width: 290px;
                     height: 40px;
                     font-size: 16px;
                     border-radius: 7px;
                     border: none;
-                    padding: 10px;
     
                     &:focus {
                         outline: none;
                     }
     
+                    &::placeholder {
+                        padding-left: 3px;
+                    }
+    
                     &[type=text] {
                         color: $mainColor;
+                        padding-left: 3px;
                     }
 
                     @include mobile {
@@ -98,15 +101,17 @@
                 }
     
                 textarea {
-                    min-width: 290px;
-                    width: 80%;
+                    width: 290px;
                     height: 200px;
                     font-size: 16px;
                     border-radius: 7px;
                     border: none;
                     resize: none;
                     color: $mainColor;
-                    padding: 10px;
+    
+                    &::placeholder {
+                        padding-left: 3px;
+                    }
     
                     &:focus {
                         outline: none;
@@ -114,6 +119,7 @@
     
                     &[type=text] {
                         color: $mainColor;
+                        padding-left: 3px;
                     }
                 }
     
