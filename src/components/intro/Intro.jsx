@@ -30,7 +30,7 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2>Hi there, I'm</h2>
                     <h1>Olga Shabalina</h1>
-                    <h3>Real Estate Agent who loves <span ref={textRef}></span></h3>
+                    <h3>I found my passion in <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
                     <KeyboardArrowDownOutlined className="icon" />
