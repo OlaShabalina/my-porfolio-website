@@ -7,7 +7,7 @@ export default function About() {
                 <small>If you reached here, you may as well get to know me a bit more! ;-) </small>
                 <h1> A few words about myself: </h1>
                 <ul>
-                    <li>Currently working as a <strong>Data Engineer</strong> for <strong>Rea Group</strong>. Lots of SQL, Python, AWS and BigQuery.</li>
+                    <li>Currently working as a <strong>Data Engineer</strong> for <strong>Rea Group</strong>. Mostly Python, TypeScript, SQL, AWS and BigQuery.</li>
                     <li>Changed career multiple times before finding a passion for coding. Ex researcher (economics), marketing specialist and real estate agent (sales).</li>
                     <li>I volunteer for <strong>Code for Australia</strong>, if you would like to join me (code, design, project management, creativity, etc) - don't hesitate to reach out => <a 
                         href="https://cfa-website.vercel.app/get-involved/civic-makers#:~:text=What%20is%20Civic%20Makers%3F,the%20lens%20of%20civic%20tech." target="_blank"
@@ -16,7 +16,7 @@ export default function About() {
                     >
                         more info on what we do is here
                     </a>.</li>
-                    <li>I have uni degrees including <strong>master in economics</strong> although I'm now convinced it wasn't necessary at all to succeed in life (my Linkedin => <a 
+                    <li>I have multiple university degrees including <strong>masters in economics</strong> but I've learnt coding via Inco Bootcamp and Udemy (my Linkedin => <a 
                         href="https://www.linkedin.com/in/olgashabalina/" target="_blank"
                         rel="noreferrer"
                         title="LinkedIn"
