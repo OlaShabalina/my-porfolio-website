@@ -26,7 +26,7 @@ export default function Footer() {
                     <i className="devicon-twitter-plain"></i>
                 </a>
             </div>
-            <p>© 2023 Portfolio of Olga Shabalina</p>
+            <p>© 2021 Portfolio of Olga Shabalina</p>
         </div>
     )
 }
